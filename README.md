@@ -1,2 +1,2 @@
 # Proyects
-Este repositorio es para subir codigos de practica mios
+Este repositorio es para subir codigos que haga sobre practicas, cada rama tendra un proyecto diferente asi teniendo una especie de monorepo.
