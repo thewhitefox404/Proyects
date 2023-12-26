@@ -90,10 +90,9 @@ function winner() {
       board[2][2] === player) || // Diagonal 1
     (board[0][2] === player && board[1][1] === player && board[2][0] === player) // Diagonal 2
   ) {
-    banner.innerHTML = "Ganador: " + player;
+    banner.innerHTML = "Winner " + player;
     playerWinner = true;
-    console.log("Ganador: " + player);
-    console.log(board);
+
   }
   cont++;
   if (cont == 9 && !playerWinner) {
